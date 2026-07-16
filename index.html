@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Grid</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div class="bg-black min-h-screen w-full p-10">
+
+        <div class="flex gap-5 mb-10">
+            <button id="btn1"
+                class="flex-1 bg-yellow-700 p-5 text-2xl font-bold uppercase text-white rounded-lg transition-all duration-300 hover:bg-yellow-600 hover:scale-105 hover:shadow-xl hover:ring-2">
+                Yellow Mode
+            </button>
+
+            <button id="btn2"
+                class="flex-1 bg-gray-600 p-5 text-2xl font-bold uppercase text-white rounded-lg transition-all duration-300 hover:bg-gray-500 hover:scale-105 hover:shadow-xl hover:ring-2">
+                Random Mode
+            </button>
+        </div>
+
+        <div id="container" class="bg-gray-800 p-10 flex flex-wrap gap-2 rounded-lg">
+        </div>
+
+
+        <footer class="mt-10 border-t border-gray-700 py-6 text-center text-gray-400">
+    <h2 class="text-3xl font-bold text-white">✨ Interactive Color Grid</h2>
+    <p class="mt-2 text-sm">
+        Hover over the boxes to paint them with vibrant colors.
+    </p>
+    <p class="mt-1 text-xl">
+        Built with ❤️ By Renjero Robin
+    </p>
+    <p class="mt-2 text-xs text-gray-600">
+                © 2026 All Rights Reserved.
+            </p>
+</footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
