@@ -34,7 +34,7 @@ function getColor() {
     return Colors[Math.floor(Math.random() * Colors.length)];
 }
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i <= 98; i++) {
     let box = document.createElement("div");
     box.className = "h-20 w-20 border border-white bg-gray-800";
     container.appendChild(box);
